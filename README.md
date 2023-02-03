@@ -7,17 +7,23 @@
 ## **R1: Application description**   
 
 ### Purpose  
-The purpose of this application is to provide a secure platform for a retail store to facilitate a customer credit system. A retail store might use a customer credit system to 
+The purpose of this application is to provide a secure platform for a retail store to facilitate a customer credit system. A retail store might use a customer credit system to:  
 
 - Rewards its customers for buying a certain number of goods, spending a particular amount in the store over a set time, winning a competition or buying a particular item or category of item the store is trying to clear.
-- Track its customers spending habits to gain useful insights 
+- Track its customers spending habits to gain useful insights
 
-
-
-
+Importantly, the application allows a retail store to track it's overall outstanding store credit and associated liabilities. 
 
 
 ### Functionality/features  
+
+ Essentially, the application allows a retail worker/store owner to add or remove customer credit for individual customers. For example, if a customer purchases a particular item the retailer can choose to add credit to their name, so the customer can use it at a later stage (like an incentive to came back into the store again). Also, the retail worker/store owner can be categorised (e.g. credit towards shirts only or shoes only or general store credit). The retail can choose the category of credit. Also a dollar value can be placed on the different categories of credit. The main features/functionality will be:
+    • Retail dashboard – for retail workers/store owners only
+        ◦ Able to configure the categories of store credit and the dollar value of the store credit
+        ◦ Can see metrics like outstanding credit, number of customers with credit, outstanding amount of credit in dollar value.
+        ◦ Can view, add, delete and update customer details
+        ◦ Can add or remove customer credit
+
 
 ### Target audience   
 
