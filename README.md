@@ -37,10 +37,17 @@ Importantly, the application allows a retail store to track it's overall outstan
 
 ![data flow diagram](./docs/Data%20flow%20diagram%20-%20customer%20credit%20%20app.png)
 
+Notes:
 
 --- 
 
 ## **R3: Application architecture diagram**  
+
+![application architecture diagram](./docs/Application%20architecture%20diagram.png)
+
+Notes:
+
+
 
 --- 
 
@@ -72,7 +79,7 @@ Importantly, the application allows a retail store to track it's overall outstan
 
 ---
 
-## Development area  
+## References
 
 
 
