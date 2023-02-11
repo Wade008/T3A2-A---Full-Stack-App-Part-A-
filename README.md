@@ -17,27 +17,37 @@ Importantly, the application allows a retail store to track it's overall outstan
 
 ### Functionality/features  
 
- Essentially, the application allows a retail worker/store owner to add or remove customer credit for individual customers. For example, if a customer purchases a particular item the retailer can choose to add credit to their name, so the customer can use it at a later stage (like an incentive to came back into the store again).  optional function, the retail worker/store owner can be categorised (e.g. credit towards shirts only or shoes only or general store credit). The retail can choose the category of credit. Also a dollar value can be placed on the different categories of credit. The main features/functionality will be:
-    • Retail dashboard – for retail workers/store owners only
-        ◦ Able to configure the categories of store credit and the dollar value of the store credit
-        ◦ Can see metrics like outstanding credit, number of customers with credit, outstanding amount of credit in dollar value.
-        ◦ Can view, add, delete and update customer details
-        ◦ Can add or remove customer credit
+Essentially, the application allows a retail worker/store owner to add or remove customer credit for individual customers. For example, if a customer purchases a particular item the retailer can choose to add credit to their name, so the customer can use it at a later stage (like an incentive to came back into the store again).  Also, the retail worker/store owner can create credit categories (e.g. credit towards shirts only or shoes only or general store credit). A dollar value can be placed on the different categories of credit. The main features/functionality include:  
 
-
+- An admin dashboard through which a retail worker/store owner:  
+    - Is able to configure the categories of store credit and the dollar value of the store credit.
+    - Can see metrics for outstanding credit, number of customers with credit, outstanding amount of credit in dollar value.
+    - Can view, add, delete and update customer details.
+    - Can add or remove customer credit.
+    - Can update their own information
+        
 ### Target audience   
+
+The application is targeted towards retail store owners, interested in tracking customer credit. The application can be used in retail environment. 
 
 ### Tech stack
 
+The application will be built using a M.E.R.N stack. Specifically:
+- M: MongoDB database tier - a NoSQL document database.
+- E: Express.js server tier - a web framework the works on a Node.js server.
+- R: React.js top tier (frontend)- a JavaScript framework used to build client side, dynamic applications.
+- N: Node.js server tier - a high-end JavaScript web server.  
+
+(MongoDB, 2022) 
 
 --- 
 
 ## **R2: Dataflow diagram** 
 
 
-![data flow diagram](./docs/Data%20flow%20diagram%20-%20customer%20credit%20%20app.png)
+![dataflow diagram](./docs/Dataflow%20diagram%20-%20customer%20credit%20%20app.png)
 
-Notes:
+
 
 --- 
 
@@ -45,7 +55,7 @@ Notes:
 
 ![application architecture diagram](./docs/Application%20architecture%20diagram.png)
 
-Notes:
+(Digikull.com, 2022)  
 
 
 
@@ -66,21 +76,41 @@ Notes:
 - As a retail worker, I want to be able to search for a particular customer using their email address or phone number, so I can easily find a customer in the system.  
 
 
-
 --- 
 
 ## **R5: Wireframes**  
 
+### Mobile design
 
+![mobile design](./docs/Mobile%20design.png)
+
+### Tablet design
+
+![tablet design](./docs/Tablet%20design.png)
+
+### Desktop design
+
+![desktop design](./docs/Desktop%20design.png)
 --- 
 
 ## **R6: Project management** 
 
+Trello has been used to plan the development of the application. The kanban board shown in the Trello page below will be used throughout the development phase (Part-B)
+
+![trello](./docs/Trello%20screenshot.png)
+
+
+My Trello board can be tracked via the link below. 
+
+https://trello.com/invite/b/iSEVu7Nc/ATTI532665fb54871f4f08a9a9b8efcd2c6e6DCDE062/full-stack-application-customer-credit-app
 
 ---
 
-## References
+## References 
 
+Reference list Digikull.com. (2022). Digikull - Top 10 Skills to Become a MERN Full-Stack Developer in 2022 Blog. [online] Available at: https://digikull.com/top-10-skills-to-become-a-mern-full-stack-developer-in-2022-blog.html [Accessed 10 Feb. 2023].
+
+MongoDB. (2022). What Is The MERN Stack? Introduction & Examples. [online] Available at: https://www.mongodb.com/mern-stack [Accessed 11 Feb. 2023].
 
 
 
