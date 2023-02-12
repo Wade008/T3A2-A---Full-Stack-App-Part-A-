@@ -1,4 +1,4 @@
-# **T3A2-A - Full Stack App (Part A)**  
+# **T3A2-A - Full Stack App (Part A): Customer Credit Application**  
 **Name:** Wade Doolan  
 **Student number:** 12678  
 
@@ -22,13 +22,14 @@ Essentially, the application allows a retail worker/store owner to add or remove
 - An admin dashboard through which a retail worker/store owner:  
     - Is able to configure the categories of store credit and the dollar value of the store credit.
     - Can see metrics for outstanding credit, number of customers with credit, outstanding amount of credit in dollar value.
-    - Can view, add, delete and update customer details.
+    - Can view, add, delete and update customer details, including their current store credit and credit categories.
     - Can add or remove customer credit.
     - Can update their own information
         
 ### Target audience   
 
-The application is targeted towards retail store owners, interested in tracking customer credit. The application can be used in retail environment. 
+The application is targeted towards retail store owners, interested in tracking customer credit. The application can be used in any retail environment. It can also be used in a hospitality environment where customer credit is used for purchases. For example, caf&#233;s.
+
 
 ### Tech stack
 
@@ -95,7 +96,7 @@ The application will be built using a M.E.R.N stack. Specifically:
 
 ## **R6: Project management** 
 
-Trello has been used to plan the development of the application. The kanban board shown in the Trello page below will be used throughout the development phase (Part-B)
+Trello has been used to plan the development of the application. The kanban board shown in the Trello page below will be used throughout the development phase (Part-B). The Backlog has already been populated for first part of the development phase (the frontend). The backlog for the backend development phase will be populated towards the end of the frontend development phase.
 
 ![trello](./docs/Trello%20screenshot.png)
 
